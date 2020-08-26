@@ -7,7 +7,7 @@ Esse produto nada mais é do que uma rede social, na qual os usuários podem div
 <p align="center">
 
   <img src="https://img.shields.io/static/v1?label=javascript&message=framework&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/>
-  <img src="https://img.shields.io/static/v1?label=typescript&message=framework&color=blue&style=for-the-badge&logo=Vue"/>
+  <img src="https://img.shields.io/static/v1?label=vue&message=framework&color=orange&style=for-the-badge&logo=VUE"/>
   <img src="https://img.shields.io/static/v1?label=node&message=language&color=green&style=for-the-badge&logo="NODE"/>
 </p>
   
