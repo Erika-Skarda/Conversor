@@ -1,6 +1,6 @@
 # Conversor de moedas :moneybag:
 
-Esse produto nada mais é do que uma rede social, na qual os usuários podem dividir informações relevantes sobre comidas e receitas que tenham experimentado. Ela possui todas as funcionalidades mais comuns em redes sociais.
+Esse produto nada mais é que um conversor de moedas feito em Vue Js.
 
 </br>
 
