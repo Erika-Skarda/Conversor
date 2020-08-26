@@ -20,11 +20,13 @@ export default {
          methods:{
             converter() {
                 let de_para = this.moedaA + "_" + this.moedaB;
-                let url = "http://free.currencyconverterapi.com/api/v5/convert?q=" + de_para + "&compact=y";
+                let url =" https://free.currconv.com/api/v7/convert?q="+
+                de_para
+                +"&compact=ultra&apiKey=c21b88b4022093871f08";
                 fetch(url).then(res => {
                     return res.json();
                 }).then(json => {
-                        let cotacao = json[de_para].val;
+                        let cotacao = json[de_para]
                         this.moedaB_value = (cotacao * parseFloat(this.moedaA_value)).toFixed(2);
                     })
                 .catch(() => console.log("Can’t access " + url + " response. Blocked by browser?"))
@@ -35,4 +37,10 @@ export default {
 
 
 <style scoped>
+
+   .conversor{
+        max-width: 300px;
+        padding: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
 </style>

@@ -1,6 +1,18 @@
 <template>
   <div id="app">
-    <Conversor moeda-a="USD" moeda-b="BRL"/>
+    <h1 class="text-center">Conversor  de Moedas</h1>
+    <div class="linha">
+     <Conversor moeda-a="USD" moeda-b="BRL"/>
+     <Conversor moeda-a="BRL" moeda-b="USD"/>
+    </div>
+        <div class="linha">
+     <Conversor moeda-a="CAD" moeda-b="BRL"/>
+     <Conversor moeda-a="BRL" moeda-b="CAD"/>
+    </div>
+        <div class="linha">
+     <Conversor moeda-a="EUR" moeda-b="BRL"/>
+     <Conversor moeda-a="BRL" moeda-b="EUR"/>
+    </div>
   </div>
 </template>
 
@@ -17,11 +29,22 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: "#f26363";
+  margin-top: 30px;
 }
+  .linha{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+  }
+.text-center {
+  text-align:center;
+}
+
 </style>
